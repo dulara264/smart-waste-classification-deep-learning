@@ -1,6 +1,6 @@
 # Smart Waste Classification using Deep Learning
 
-## 📌 Problem Statement
+##  Problem Statement
 Improper waste segregation reduces recycling efficiency and negatively impacts the environment.  
 This project builds a deep learning-based image classification system to automatically categorize waste into six classes:
 - Cardboard
@@ -12,7 +12,7 @@ This project builds a deep learning-based image classification system to automat
 
 ---
 
-## 🗂 Dataset
+##  Dataset
 Dataset used: TrashNet (publicly available waste image dataset)
 
 - ~2500 images
@@ -22,7 +22,7 @@ Dataset used: TrashNet (publicly available waste image dataset)
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 Transfer Learning approach using:
 
@@ -36,7 +36,7 @@ The base model was initially frozen and later partially fine-tuned for improved 
 
 ---
 
-## ⚙️ Training Details
+##  Training Details
 
 - Optimizer: Adam
 - Loss Function: Categorical Crossentropy
@@ -46,7 +46,7 @@ The base model was initially frozen and later partially fine-tuned for improved 
 
 ---
 
-## 📊 Results
+##  Results
 
 - Validation Accuracy: ~75%
 - Confusion matrix analysis performed
@@ -57,7 +57,7 @@ Significant confusion was observed between **paper and cardboard** due to visual
 
 ---
 
-## 🔍 Key Learnings
+##  Key Learnings
 
 - Transfer learning significantly improves performance on small datasets.
 - Fine-tuning only higher layers stabilizes training.
@@ -65,7 +65,7 @@ Significant confusion was observed between **paper and cardboard** due to visual
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Increase dataset size
 - Apply class balancing techniques
@@ -75,7 +75,7 @@ Significant confusion was observed between **paper and cardboard** due to visual
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 
 - TensorFlow
 - NumPy
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📌 Project Structure
+##  Project Structure
 
 ```
 smart-waste-classification-deep-learning/
@@ -103,6 +103,6 @@ smart-waste-classification-deep-learning/
 
 ---
 
-## 📎 Conclusion
+##  Conclusion
 
 This project demonstrates a practical application of deep learning and transfer learning for real-world environmental AI systems.
